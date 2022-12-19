@@ -68,7 +68,6 @@ class Pluto:
         result = []
         for x in timelines:
             for y in x:
-                print(y)
                 result.append(
                     NowPlayingItem(
                         f"{y['title']}",
